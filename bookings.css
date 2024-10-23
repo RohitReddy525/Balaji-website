@@ -1,0 +1,11 @@
+h1{
+    color: yellow;
+    background-color: black;
+    font-style: italic;
+}
+img{
+    padding: 150px;
+    height: 300px;
+    width: 150px;
+    padding-top: 10px;
+}
