@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outbox{
+    border: solid 1px;
+    height : 150px;
+    display: flex;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 150px;
+   
+}
+#in1{
+    width: 150px;
+}
+#in2{
+    width: 870px;
+    text-align: center;
+    text-shadow: burlywood;
+}
+#in3{
+    width : 330px;
+}
+
+#satya{
+    font-size: 60px;
+    color: rgb(22, 2, 2);
+}
+#sunil{
+    font-size: 38px;
+    color: red;
+}
+#rana{
+    font-size: 25px;
+    color: blue;
+}
+#scrolltext{
+    font-size: 30px;
+    color: rgb(231, 7, 37);
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height : 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width : 162px;
+    float: left;
+    background-color: darkgoldenrod;
+    text-align: center;
+    line-height: 50px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    font-size: 45px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+.outerbox{
+    border: solid 1px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 450px;
+    z-index: -1;
+
+
+}
+#inbox1{
+    width: 400px;
+    background-image: url(ravi.jpg);
+    background-position: no-repeat;
+    background-size: 400px 380px;
+    animation-duration: imgchange;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(2.jpg);
+    }
+    10%{
+        background-image: url(3.jpg);
+    }
+    20%{
+        background: url(4.jpg);
+    }
+    30%{
+        background-image: url(5.jpg);
+    }
+    40%{
+        background-image: url(6.jpg);
+    }
+    50%{
+        background-image: url(1.jpg);
+    }
+    60%{
+        background-image: url(3.jpg);
+    }
+    70%{
+        background-image: url(5.jpg);
+    }
+    80%{
+        background-image: url(2.jpg);
+    }
+    90%{
+        background-image: url(6.jpg);
+    }
+    100%{
+        background-image: url(4.jpg);
+    }
+}
+#inbox2,#inbox3{
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}

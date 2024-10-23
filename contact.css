@@ -1,0 +1,43 @@
+form{
+    border: solid 1px;
+    width: 650px;
+    height: 550px;
+    margin-left: 350px;
+    padding-left: 10px;
+background-color: palegoldenrod;
+border-radius: 8%;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    background-color: yellow;
+}
+p{
+    font-size: 19px;
+    font-weight: bolder;
+}
+label{
+    font-size: 15;
+    color: brown;
+    font-style: inherit;
+}
+input{
+    height: 30px;
+    width: 280px;
+}
+textarea{
+    height: 110px;
+    width: 330px;
+}
+button{
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: bisque;
+  background-color: rgb(12, 182, 35);
+}
+button:hover{
+    background-color: rgba(71, 17, 221, 0.884);
+}
